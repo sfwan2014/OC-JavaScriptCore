@@ -1,0 +1,26 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+	<head>
+		<title></title>
+	</head>
+	<body>
+	<p id="element1">第一行</p>
+	<p id="element2">第二行</p>
+	<p id="element3">第三行</p>
+	
+	<button onclick=gotoLogin()>登录</button>
+	<script>
+        function gotoLogin(){
+            window.location.href="app://gotoLogin";
+        }
+    
+    var func = function (value) {
+        var element = document.getElementById("element2");
+        element.innerHTML = value;
+        return 10;
+    }
+	</script>
+
+	</body>
+</html>
